@@ -7,7 +7,7 @@ paginate: true
 footer: @asm0di0 &emsp13;&emsp13;@khudobakhshov
 backgroundImage: "linear-gradient(to bottom, #000 0%, #1a2028 50%, #293845 100%)"
 color: white
-title: Noname
+title: Kotlin API for Apache Spark
 ---
 <!--
 _class: lead
@@ -157,6 +157,12 @@ _class: lead
 
 Есть в стандатной библиотеке
 
+---
+<!--
+_class: lead
+-->
+# Type-safe builders
+![h:400](images/typesafe.png)
 
 ---
 <!--
@@ -184,10 +190,41 @@ _class: lead
 
 ---
 
-<!--
-_class: lead
--->
+<!-- _class: lead -->
 
 ![h:600](images/withcached.png)
 
+---
+<!-- _class: lead -->
 
+# <!-- fit --> Что было сложно
+
+---
+
+# Что не работает
+
+- Поддержка массивов
+- UDF не всегда
+- Spark 2 (уже скоро)
+
+---
+
+<!-- _class: lead -->
+
+# <!-- fit --> ki-shell
+
+[Kotlin/kotlin-interactive-shell](https://github.com/Kotlin/kotlin-interactive-shell)
+
+---
+
+# Итоги
+
+- Kotlin подходит для дата инжинеров!
+- Может работать как первый язык
+- Его поддерживает наша любимая IDE
+
+---
+<!-- _class: lead -->
+# <!-- fit --> Спасибо!
+
+[JetBrains/kotlin-spark-api](https://github.com/JetBrains/kotlin-spark-api)

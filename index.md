@@ -27,6 +27,9 @@ footer {
 # Kotlin for Apache Spark:
 # Зачем миру ещё один API
 
+Паша Финкельштейн, Виталий Худобахшов
+JetBrains
+
 ---
 <!--
 _class: lead
@@ -111,6 +114,15 @@ _class: lead
 
 # <!-- fit --> А что там насчёт R?
 
+
+---
+
+<!--
+_class: lead
+-->
+
+# <!-- fit --> А если мы уже пишем на Java?
+
 ---
 
 <!--
@@ -160,5 +172,22 @@ _class: lead
 -->
 
 ![w:1120](images/join.png)
+
+---
+
+<!--
+_class: lead
+-->
+
+![w:1120](images/withspark.png)
+
+
+---
+
+<!--
+_class: lead
+-->
+
+![h:600](images/withcached.png)
 
 

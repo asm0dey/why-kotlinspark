@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "marp index.md",
+    "build": "marp -I . -o dist",
     "build-pdf": "marp --allow-local-files --pdf index.md",
     "build-pptx": "marp --allow-local-files --pptx index.md",
     "serve": "marp server --watch index.md"

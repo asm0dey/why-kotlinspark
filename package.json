@@ -1,0 +1,15 @@
+{
+  "name": "java-python",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "marp index.md",
+    "build-pdf": "marp --allow-local-files --pdf index.md",
+    "build-pptx": "marp --allow-local-files --pptx index.md",
+    "serve": "marp server --watch index.md"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^0.17.0"
+  }
+}
